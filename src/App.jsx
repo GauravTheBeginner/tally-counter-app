@@ -6,11 +6,7 @@ import { signInWithPopup } from "firebase/auth";
 import { signOut } from "firebase/auth";
 import {
   addCounter,
-  removeCounter,
-  increment,
-  decrement,
-  reset,
-  editCounterName,
+  
 } from './features/counterSlice';
 import CounterItem from './components/CounterItem';
 
